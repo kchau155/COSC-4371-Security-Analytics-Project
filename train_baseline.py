@@ -58,7 +58,7 @@ def locate_project_dir() -> Path:
     raise FileNotFoundError(
         "Cannot find split.csv together with results/train.csv, "
         "results/validation.csv, and results/test.csv. "
-        "Run create_splits.py in your data project, or set PROJECT_DIR "
+        "Run create_splits.py in data project, or set PROJECT_DIR "
         "explicitly to the folder containing those outputs."
     )
 
