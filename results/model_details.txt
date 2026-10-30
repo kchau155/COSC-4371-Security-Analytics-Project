@@ -1,0 +1,22 @@
+COSC 4371 checkpoint — exact-match-cleaned baseline
+Positive class: 1 = injection
+Train: Safe-Guard only
+Validation: held-out Safe-Guard training partition, stratified seed 42
+Tests: fixed Safe-Guard test + all Deepset + all Gandalf rows
+Pipeline: TfidfVectorizer(lowercase=True, strip_accents='unicode',
+  analyzer='word', ngram_range=(1,2), min_df=2, max_features=50000, sublinear_tf=True)
+  then LinearSVC(C=1.0, class_weight='balanced', random_state=42, max_iter=10000)
+Score: LinearSVC decision_function (not a probability)
+Validation threshold selection: lowest cutoff giving FPR <= 0.05
+Threshold: -0.6409550185601036
+Validation FPR: 0.04946996
+Validation recall: 1.00000000
+Measured fit time (seconds): 0.5678
+Hardware: Windows-11-10.0.26200-SP0, CPU=AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD, logical CPUs=16
+Python: 3.13.9
+pandas: 2.3.3
+numpy: 2.3.5
+scikit-learn: 1.7.2
+matplotlib: 3.10.6
+Checkpoint checker command (run from Project folder):
+python check_checkpoint.py --split split.csv --scores scores.csv --threshold -0.6409550185601036

@@ -1,0 +1,6 @@
+dataset,split,rows,positive,negative,positive_pct
+deepset,test,662,263,399,39.73
+gandalf,test,1000,1000,0,100.0
+safeguard,test,2060,650,1410,31.55
+safeguard,train,6464,1938,4526,29.98
+safeguard,validation,1617,485,1132,29.99

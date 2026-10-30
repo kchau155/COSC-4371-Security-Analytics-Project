@@ -1,0 +1,12 @@
+Original Safe-Guard publisher train rows: 8236
+Dropped: internally conflicting labels: 5 rows (2 distinct texts)
+Dropped: exact overlap with any fixed test set: 84 rows
+Dropped: remaining repeated Safe-Guard training texts: 66 rows
+Safe-Guard unique rows assigned to train + validation: 8081
+Fixed original Safe-Guard test rows: 2060
+Fixed external test rows: 1662
+Post-cleaning train rows matching any test: 0
+Post-cleaning train rows matching validation: 0
+Post-cleaning validation rows matching test: 0
+Note: this exact-match baseline does not yet eliminate character-Jaccard or semantic near-duplicate boundary overlaps.
+Note: original test rows, including any within-test duplicates, were kept unchanged.

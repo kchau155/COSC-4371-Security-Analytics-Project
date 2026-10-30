@@ -1,0 +1,8 @@
+dataset	original_partition	rows	file
+deepset	test	116	Datasets\deepset prompt injections\test-00000-of-00001-701d16158af87368.parquet
+deepset	train	546	Datasets\deepset prompt injections\train-00000-of-00001-9564e8b05b4757ab.parquet
+gandalf	test	112	Datasets\gandalf_ignore_insturctions\test-00000-of-00001-bc92128b9288a6d1.parquet
+gandalf	train	777	Datasets\gandalf_ignore_insturctions\train-00000-of-00001-ded53be747ff55cd.parquet
+gandalf	validation	111	Datasets\gandalf_ignore_insturctions\validation-00000-of-00001-94481a2a09ff2fff.parquet
+safeguard	test	2060	Datasets\safe-guard-prompt-injection\test-00000-of-00001.parquet
+safeguard	train	8236	Datasets\safe-guard-prompt-injection\train-00000-of-00001.parquet
