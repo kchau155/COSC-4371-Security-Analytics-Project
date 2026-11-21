@@ -1,0 +1,21 @@
+row_id,value,column,category
+deepset:train-00000-of-00001-9564e8b05b4757ab.parquet:313,normalized,deepset,German-language benign prompt
+deepset:test-00000-of-00001-701d16158af87368.parquet:69,normalized,deepset,German-language benign prompt
+deepset:test-00000-of-00001-701d16158af87368.parquet:51,normalized,deepset,German-language benign prompt
+deepset:train-00000-of-00001-9564e8b05b4757ab.parquet:330,normalized,deepset,German-language benign prompt
+deepset:train-00000-of-00001-9564e8b05b4757ab.parquet:277,normalized,deepset,German-language benign prompt
+deepset:train-00000-of-00001-9564e8b05b4757ab.parquet:290,normalized,deepset,German-language benign prompt
+deepset:train-00000-of-00001-9564e8b05b4757ab.parquet:194,normalized,deepset,German-language benign prompt
+deepset:train-00000-of-00001-9564e8b05b4757ab.parquet:215,normalized,deepset,German-language benign prompt
+deepset:train-00000-of-00001-9564e8b05b4757ab.parquet:370,normalized,deepset,German-language benign prompt
+deepset:test-00000-of-00001-701d16158af87368.parquet:71,normalized,deepset,German-language benign prompt
+deepset:train-00000-of-00001-9564e8b05b4757ab.parquet:464,normalized,deepset,Answer steering
+deepset:train-00000-of-00001-9564e8b05b4757ab.parquet:367,normalized,deepset,Coercive or safety-boundary redirection
+deepset:train-00000-of-00001-9564e8b05b4757ab.parquet:535,normalized,deepset,Prior-instruction override
+deepset:test-00000-of-00001-701d16158af87368.parquet:111,normalized,deepset,Prior-instruction override
+deepset:train-00000-of-00001-9564e8b05b4757ab.parquet:518,normalized,deepset,Multilingual interruption
+deepset:train-00000-of-00001-9564e8b05b4757ab.parquet:521,normalized,deepset,Coercive or safety-boundary redirection
+deepset:train-00000-of-00001-9564e8b05b4757ab.parquet:470,normalized,deepset,Answer steering
+deepset:train-00000-of-00001-9564e8b05b4757ab.parquet:377,normalized,deepset,Role or tool redirection
+deepset:test-00000-of-00001-701d16158af87368.parquet:95,normalized,deepset,Prior-instruction override
+deepset:test-00000-of-00001-701d16158af87368.parquet:8,normalized,deepset,Role or tool redirection
